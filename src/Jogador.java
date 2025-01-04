@@ -3,11 +3,10 @@ public class Jogador {
     public String nome;
     public int arremesso;
     public int drible;
-    public int passe;
     public int enterrada;
     public int defesa;
     public int bloqueio;
-    public int infiltracao;
+    
 
     AcaoJogador acao = new AcaoJogador();
     
