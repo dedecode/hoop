@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         Jogador giannis = new Jogador();
-        giannis.setNome("Giannis Antetokoumpo");
+        giannis.setNome("Giannis Outentaconto");
         giannis.setArremesso(70);
         giannis.setEnterrada(99);
         giannis.setBloqueio(99);
@@ -12,8 +12,8 @@ public class Main {
         giannis.setInfiltracao(99);
         giannis.setPasse(80);
 
-        Jogador curry = new Jogador();
-        curry.setNome("Stephen Curry");
+        Jogador corre = new Jogador();
+        curry.setNome("Stevão Corre");
         curry.setArremesso(100);
         curry.setEnterrada(70);
         curry.setBloqueio(60);
@@ -22,8 +22,8 @@ public class Main {
         curry.setInfiltracao(88);
         curry.setPasse(80);
 
-        Jogador simmons = new Jogador();
-        simmons.setNome("Ben Simmons");
+        Jogador simas = new Jogador();
+        simmons.setNome("Bem Simas");
         simmons.setArremesso(30);
         simmons.setEnterrada(20);
         simmons.setBloqueio(20);
@@ -34,14 +34,14 @@ public class Main {
 
         ArrayList<Jogador> jogadores= new ArrayList<Jogador>();
         jogadores.add(giannis);
-        jogadores.add(curry);
-        jogadores.add(simmons);
+        jogadores.add(corre);
+        jogadores.add(simas);
 
         Jogador info = new Jogador();
         info.mostrarInfos(giannis);
-        info.mostrarInfos(curry);
+        info.mostrarInfos(corre);
         
         AcaoJogador arremesso = new AcaoJogador();
-        arremesso.resultadoArremeso(giannis, curry);
+        arremesso.resultadoArremeso(giannis, corre);
     }
 }
