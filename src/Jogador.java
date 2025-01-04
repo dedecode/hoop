@@ -10,14 +10,6 @@ public class Jogador {
 
     AcaoJogador acao = new AcaoJogador();
     
-    public int getInfiltracao() {
-        return infiltracao;
-    }
-
-    public void setInfiltracao(int infiltracao) {
-        this.infiltracao = infiltracao;
-    }
-
     public String getNome() {
         return nome;
     }
@@ -40,14 +32,6 @@ public class Jogador {
 
     public void setDrible(int drible) {
         this.drible = drible;
-    }
-
-    public int getPasse() {
-        return passe;
-    }
-
-    public void setPasse(int passe) {
-        this.passe = passe;
     }
 
     public int getEnterrada() {
@@ -78,11 +62,9 @@ public class Jogador {
         System.out.println("Nome: " + j.nome);
         System.out.println("Arremesso: " + j.arremesso);
         System.out.println("Enterrada: " + j.enterrada);
-        System.out.println("Infiltracao: " + j.infiltracao);
         System.out.println("Defesa: " + j.defesa);
         System.out.println("Drible: " + j.drible);
         System.out.println("Bloqueio: " + j.bloqueio);
-        System.out.println("Passe: " + j.passe);
     }
 
 
